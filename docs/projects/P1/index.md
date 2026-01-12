@@ -17,14 +17,22 @@ nav_order: 1 # order in ToC
 
 ## Description
 XXXXX
+
 ### Objectives
 XXXXX
+
 ### Data
-{: .note }
-> Pending
+{: .d-inline-block }
+
+Pending
+{: .label .label-green }
+
 ### Scripts
-{: .note }
-> Pending
+{: .d-inline-block }
+
+Coming soon
+{: .label .label-yellow }
+
 ## Publications
 * Paper 1
 * Paper 2
