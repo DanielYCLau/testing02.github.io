@@ -1,5 +1,11 @@
-title: YOUR TITLE
-description: YOUR DESCRIPTION
+title: Test Page
+description: testing
 theme: just-the-docs
-
 url: https://DanielYCLau.github.io/testing02.github.io/
+
+defaults:
+  - scope:
+      path: "docs" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "default"
