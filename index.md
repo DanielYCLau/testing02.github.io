@@ -15,6 +15,11 @@ Welcome to HKUSPH infectious disease team
 | Project 1 | 2000   | 0-100                     |
 | Project 2 | 2021   | 60+                       |
 
+| Class          | What it does         |
+|:---------------|:---------------------|
+| `.text-left`   | `text-align: left`   |
+| `.text-right`  | `text-align: right`  |
+| `.text-center` | `text-align: center` |
 
 ---
 
@@ -22,7 +27,8 @@ Welcome to HKUSPH infectious disease team
 * [HKUSPH][HKUSPH]
 
 
-----
+
+
 
 [HKUSPH]: https://sph.hku.hk/
 
