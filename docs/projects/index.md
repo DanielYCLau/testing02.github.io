@@ -6,4 +6,8 @@ nav_order: 2
 # List of Projects
 
 There is the list of projects
-{: .fs-6 .fw-300 }
+* Project 1
+* Project 2
+* Project 3
+
+{: .no_toc}
