@@ -15,11 +15,12 @@ Welcome to HKUSPH infectious disease team
 | Project 1 | 2000   | 0-100                     |
 | Project 2 | 2021   | 60+                       |
 
-| Class          | What it does         |
+| Projects       | Since                |
 |:---------------|:---------------------|
-| `.text-left`   | `text-align: left`   |
-| `.text-right`  | `text-align: right`  |
-| `.text-center` | `text-align: center` |
+| Project 1      | `text-align: left`   |
+| Project 2      | `text-align: right`  |
+
+
 
 ---
 
