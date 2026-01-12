@@ -15,11 +15,16 @@ nav_order: 1 # order in ToC
 
 ---
 
-## Section 1
-
-### subtitle 1
-
-## Section 2
-
-### subtitle 2
-
+## Description
+XXXXX
+### Objectives
+XXXXX
+### Data
+{: .note }
+> Pending
+### Scripts
+{: .note }
+> Pending
+## Publications
+* Paper 1
+* Paper 2
