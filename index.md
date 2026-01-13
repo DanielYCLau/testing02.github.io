@@ -21,6 +21,7 @@ Welcome to HKUSPH infectious disease team
 |:----------------|:---------------|:--------------------------|:------------|
 | [Project 1][P1] | 2000           | 0-100                     | Pending     |
 | [Project 2][P2] | 2021           | 60+                       | Pending     |
+| Project 3       | 2022           | 60+                       | Pending     |
 
 ---
 
