@@ -1,12 +1,28 @@
 
 
 
-.side-bar {
-  width: 40%;
+// .side-bar {
+//   width: 30%;
+// }
+
+// .main-content {
+//     margin-left: 30%;
+// }
+
+.site-header {
+  width: 30%;    
+  max-width: 30%;
 }
 
-.main-content {
-    margin-left: 45%;
+.site-nav {
+  width: 30%;    
+  max-width: 30%;
+}
+
+.nav-list .nav-list-link {
+  white-space: nowrap;   /* Prevents the link text from wrapping */
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 
@@ -17,7 +33,7 @@
   position: fixed;
   top: 3.75rem;
   right: 0px;
-  width: 30%; // 300px;
+  width: 20%; // 300px;
   max-height: calc(100vh - 120px);
   overflow-y: auto;
   background: #ffffff;
