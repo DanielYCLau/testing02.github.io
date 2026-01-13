@@ -1,15 +1,30 @@
 
-
-
+// reduce space next to sidebar
+// https://www.reddit.com/r/Jekyll/comments/153wo1y/help_customizing_jekyll_just_the_docs_theme/
 .side-bar {
   @include mq(lg) {
     width: calc((70% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
   }
 }
 
+.main {
+  @include mq(md) {
+    position: relative;
+    max-width: 70rem;
+    margin-left: $nav-width-md;
+  }
+  
+  @include mq(lg) {
+    margin-left: Max(
+      #{$nav-width},
+      calc((70% - #{$nav-width + $content-width}) / 2 + #{$nav-width})
+    );
+  }
+}
 
 
 
+// ADD TOC on the right side
 // https://github.com/just-the-docs/just-the-docs/issues/1380
 
 .my-right-toc {
