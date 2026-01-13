@@ -3,6 +3,7 @@ description: testing
 theme: just-the-docs
 url: https://DanielYCLau.github.io/testing02.github.io/
 toc: true
+toc_label: "On this page"
 
 color_scheme: foo
 
@@ -12,6 +13,9 @@ defaults:
       type: "pages"
     values:
       layout: "default"
+
+plugins:
+  - jekyll-toc
 
 back_to_top: true
 back_to_top_text: "Back to top"
