@@ -2,6 +2,7 @@
 title: Project 1
 parent: Projects
 nav_order: 1 # order in ToC
+show_toc: true
 ---
 
 # Project 1
