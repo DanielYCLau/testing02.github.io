@@ -43,6 +43,6 @@ Welcome to HKUSPH infectious disease team
 
 
 [HKUSPH]: https://sph.hku.hk/
-[P1]: https://danielyclau.github.io/testing02.github.io/docs/projects/P1/
-[P2]: https://danielyclau.github.io/testing02.github.io/docs/projects/P2/
+[P1]: {% link docs/P1/index.md %}
+[P2]: {% link docs/P2/index.md %}
 
