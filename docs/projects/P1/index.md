@@ -2,8 +2,8 @@
 title: Project 1
 parent: Projects
 nav_order: 1 # order in ToC
-toc: true
 ---
+
 
 # Project 1 
 {: .no_toc}
@@ -11,8 +11,10 @@ toc: true
 ## Table of contents
 {: .no_toc .text-delta }
 
+<div class="my-right-toc" markdown="1">
 1. TOC
 {:toc}
+</div>
 
 ---
 
