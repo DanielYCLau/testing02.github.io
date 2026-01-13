@@ -16,7 +16,7 @@ nav_order: 2 # order in ToC
 
 
 <div class="my-right-toc" markdown="1">
-Table of Content
+Table of Contents
 {: .text-delta }
 
 1. TOC

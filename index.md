@@ -5,17 +5,6 @@ nav_order: 1
 ---
 
 
-
-<div class="my-right-toc" markdown="1">
-Table of Content
-{: .text-delta }
-
-1. TOC
-{:toc}
-</div>
-
-
-
 # Welcome
 {: .no_toc}
 
@@ -26,6 +15,17 @@ Welcome to HKUSPH infectious disease team
 
 1. TOC
 {:toc}
+
+
+
+<div class="my-right-toc" markdown="1">
+Table of Contents
+
+1. TOC
+{:toc}
+</div>
+
+
 
 ---
 
