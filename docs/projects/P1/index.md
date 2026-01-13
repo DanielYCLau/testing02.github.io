@@ -2,11 +2,10 @@
 title: Project 1
 parent: Projects
 nav_order: 1 # order in ToC
-show_toc: true
+toc: true
 ---
 
-# Project 1
-{: .no_toc}
+# Project 1 
 
 ## Table of contents
 {: .no_toc .text-delta }

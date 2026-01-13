@@ -2,6 +2,7 @@ title: Test Page
 description: testing
 theme: just-the-docs
 url: https://DanielYCLau.github.io/testing02.github.io/
+toc: true
 
 color_scheme: foo
 
