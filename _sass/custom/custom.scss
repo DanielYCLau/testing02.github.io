@@ -1,13 +1,13 @@
 
 
 
-body.sidebar {
-    width: 300px;
+.sidebar {
+  width: 20%;
 }
 
-.main-content {
-    margin-left: 10px;
-}
+// .main-content {
+//     margin-left: 10px;
+// }
 
 
 
@@ -17,7 +17,7 @@ body.sidebar {
   position: fixed;
   top: 3.75rem;
   right: 0px;
-  width: 300px;
+  width: 20%; // 300px;
   max-height: calc(100vh - 120px);
   overflow-y: auto;
   background: #ffffff;
