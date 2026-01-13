@@ -13,10 +13,18 @@ nav_order: 1 # order in ToC
 1. TOC
 {:toc}
 
+
+
+
 <div class="my-right-toc" markdown="1">
+Table of Content
+{: .text-delta }
+
 1. TOC
 {:toc}
 </div>
+
+
 
 ---
 
