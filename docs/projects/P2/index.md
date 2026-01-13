@@ -13,6 +13,11 @@ nav_order: 2 # order in ToC
 1. TOC
 {:toc}
 
+<div class="my-right-toc" markdown="1">
+1. TOC
+{:toc}
+</div>
+
 ---
 
 ## Description
