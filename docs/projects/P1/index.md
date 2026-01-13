@@ -4,18 +4,8 @@ parent: Projects
 nav_order: 1 # order in ToC
 ---
 
-# Project 1
-{: .no_toc}
 
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
-
-
-
+<!-- only 1 TOC-->
 <div class="my-right-toc" markdown="1">
 Table of Contents
 {: .text-delta }
@@ -23,6 +13,11 @@ Table of Contents
 1. TOC
 {:toc}
 </div>
+
+
+
+# Project 1
+{: .no_toc}
 
 
 
