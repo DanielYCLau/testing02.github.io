@@ -3,9 +3,14 @@ description: testing
 theme: just-the-docs
 url: https://DanielYCLau.github.io/testing02.github.io/
 
+color_scheme: foo
+
 defaults:
   - scope:
       path: "docs" # an empty string here means all files in the project
       type: "pages"
     values:
       layout: "default"
+
+back_to_top: true
+back_to_top_text: "Back to top"

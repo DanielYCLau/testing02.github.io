@@ -12,23 +12,10 @@ Welcome to HKUSPH infectious disease team
 
 # List of Projects
 
-| Projects  | Since  | Age range of participants |
-|:----------|:-------|:--------------------------|
-| Project 1 | 2000   | 0-100                      |
-| Project 2 | 2021   | 60+                        |
-
-| Projects       | Since                |
-|:---------------|:---------------------|
-| Project 1      | `text-align: left`   |
-| Project 2      | `text-align: right`  |
-
-
-| Class         | `line-height` value  | Notes                         |
-|:--------------|:---------------------|:------------------------------|
-| `.lh-0`       | 0                    |                               |
-| `.lh-tight`   | 1.1                  | Default for headings          |
-| `.lh-default` | 1.4                  | Default for body (paragraphs) |
-
+| Projects        | Year conducted | Age range of participants | Description |
+|:----------------|:---------------|:--------------------------|:------------|
+| [Project 1][P1] | 2000           | 0-100                     | Pending     |
+| [Project 2][P2] | 2021           | 60+                       | Pending     |
 
 ---
 
@@ -40,5 +27,6 @@ Welcome to HKUSPH infectious disease team
 
 
 [HKUSPH]: https://sph.hku.hk/
-
+[P1]: https://danielyclau.github.io/testing02.github.io/docs/projects/P1/
+[P2]: https://danielyclau.github.io/testing02.github.io/docs/projects/P2/
 
