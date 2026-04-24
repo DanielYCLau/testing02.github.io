@@ -1,5 +1,5 @@
 ---
-title: Project 1
+title: "Pediatric Vaccine Study"
 parent: Projects
 nav_order: 1 # order in ToC
 ---

@@ -27,10 +27,10 @@ Welcome to HKUSPH infectious disease team
 
 # List of Projects
 
-| Projects        | Year conducted | Age range of participants | Description |
-|:----------------|:---------------|:--------------------------|:------------|
-| [Project 1][P1] | 2000           | 0-100                     | Pending     |
-| [Project 2][P2] | 2021           | 60+                       | Pending     |
+| Projects | Year conducted | Age range of participants | Description |
+|:---|:---:|:---:|:---|
+| [P1_name][P1] | 2000           | 0-100                     | Pending     |
+| [P2_name][P2] | 2021           | 60+                       | Pending     |
 | Project 3       | 2022           | 60+                       | Pending     |
 
 ---
@@ -43,6 +43,8 @@ Welcome to HKUSPH infectious disease team
 
 
 [HKUSPH]: https://sph.hku.hk/
-[P1]: {% link docs/P1/index.md %}
-[P2]: {% link docs/P2/index.md %}
+[P1_name]: {% title docs/P1/index.md %}
+[P1]     : {% link docs/P1/index.md %}
+[P2]     : {% link docs/P2/index.md %}
+
 
