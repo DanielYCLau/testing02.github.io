@@ -16,7 +16,7 @@ Table of Contents
 
 
 
-# Project 1
+# {{site.title}}
 {: .no_toc}
 
 
