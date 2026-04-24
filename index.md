@@ -27,11 +27,11 @@ Welcome to HKUSPH infectious disease team
 
 # List of Projects
 
-| Projects | Year conducted | Age range of participants | Description |
+| Projects | Year start | Year end | Age range | Description |
 |:---|:---:|:---:|:---|
-| [P1_name][P1] | 2000           | 0-100                     | Pending     |
-| [P2_name][P2] | 2021           | 60+                       | Pending     |
-| Project 3       | 2022           | 60+                       | Pending     |
+| [Pediatric Vaccine Study][P1] | 2009 | 2015 | children 5-17 years and their household members | Cohort study of infections and immunity in households with children, and of the direct and indirect benefits of vaccinating one child per household |
+| [P2_name][P2] | 2021 | 2021 | 60+ | Pending |
+| Project 3 | 2022 | 2022 | 60+ | Pending |
 
 ---
 
@@ -43,7 +43,6 @@ Welcome to HKUSPH infectious disease team
 
 
 [HKUSPH]: https://sph.hku.hk/
-[P1_name]: {% title docs/P1/index.md %}
 [P1]     : {% link docs/P1/index.md %}
 [P2]     : {% link docs/P2/index.md %}
 
