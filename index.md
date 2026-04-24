@@ -41,7 +41,6 @@ Welcome to HKUSPH infectious disease team
 
 
 
-
 [HKUSPH]: https://sph.hku.hk/
 [P1]: {% link docs/projects/P1/index.md %}
 [P2]: {% link docs/projects/P2/index.md %}
