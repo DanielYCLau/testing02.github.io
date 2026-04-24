@@ -16,7 +16,7 @@ Table of Contents
 
 
 
-# {{site.title}}
+# {{page.title}}
 {: .no_toc}
 
 
