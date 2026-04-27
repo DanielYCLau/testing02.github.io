@@ -1,8 +1,19 @@
 
 
 
-.main-content li {
-  font-size: 0.1rem; /* Adjust value as needed */
+/* Increase the max-width of the main content container */
+.main-content-wrap, 
+.main-content,
+.page-header {
+    max-width: 1200px !important; /* Change to 'none' for full width */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Ensure the header/footer also span the new width */
+.site-footer, 
+.site-header {
+    max-width: 1200px !important;
 }
 
 
