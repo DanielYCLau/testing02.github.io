@@ -23,11 +23,11 @@ Table of Contents
 
 ---
 
-## Description
+## Objectives
 XXXXX
 
-### Objectives
-XXXXX
+### Description
+The study was designed on a household basis, to enable inference on the indirect as well as direct benefits of influenza vaccination and transmission dynamics within households. Invitation letters were distributed to members of a local birth cohort and via local schools. Eligible households included at least 1 child aged 6–17 years who did not have any contraindications against injection of TIV. One eligible child from each household was randomized to receive either a single dose of TIV or saline placebo intramuscularly, regardless of whether they had previously received an influenza vaccine. Procedures to ensure allocation concealment and double blinding were conducted. Serum specimens were collected from study participants at baseline prior to vaccination (August 2009–February 2010) and 1 month after vaccination. Sera were thereafter collected annually each autumn for every participant, and each spring for at least 25% of participants. At the end of each year, participants were invited to continue participating in the study for another year. Vaccines and placebos were only administered to study participants once, at the beginning of the study. Receipt of influenza vaccine outside of the trial was recorded annually. All participants and their household contacts were instructed to record the presence of any systemic and respiratory symptoms in a symptom diary daily throughout the study. Telephone calls were made every 2 weeks on average to monitor for any acute upper respiratory tract infections (URTIs). Households were also reminded to report any acute URTIs to the study hotline as soon as possible after illness onset. Home visits were triggered by the presence of any 2 symptoms or signs of fever (temperature ≥37.8°C), chills, headache, sore throat, cough, presence of phlegm, coryza, or myalgia in any household member and repeated at 3-day intervals until acute URTIs resolved. During home visits, combined nasal and throat swabs (NTSs) were collected from all household members regardless of illness. Household contacts of study participants also provided regular serum specimens and NTSs during illness episodes, and symptom diaries throughout the follow-up period.
 
 ### Data
 {: .d-inline-block }
