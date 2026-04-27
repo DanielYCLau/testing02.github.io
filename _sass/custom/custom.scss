@@ -1,11 +1,8 @@
 
-.main-content-wrap {
-  max-width: none;
-  padding-inline: 200px; // Keeps a small breathing room on the edges
-}
-
 .main-content {
-  max-width: none;
+  margin-left: 0;
+  margin-right: auto;
+  max-width: $content-width;
 }
 
 
