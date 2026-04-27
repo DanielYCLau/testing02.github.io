@@ -20,11 +20,19 @@
 }
 
 
+
+
+
+
 .main-content-wrap {
   text-align: justify;
   text-justify: inter-word;
 }
 
+.main-content table td {
+  text-align: justify;
+  text-justify: inter-word; /* Helps with spacing between words */
+}
 
 
 /* // reduce space next to sidebar
