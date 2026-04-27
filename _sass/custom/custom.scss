@@ -29,7 +29,7 @@
   text-justify: inter-word;
 }
 
-.main-content table td {
+.main-content-wrap table td {
   text-align: justify;
   text-justify: inter-word; /* Helps with spacing between words */
 }
@@ -67,7 +67,7 @@
   position: fixed;
   top: 3.75rem;
   right: 0px;
-  width: 20%;
+  width: 200px;
   max-height: calc(100vh - 120px);
   overflow-y: auto;
   background: #ffffff;
@@ -100,7 +100,7 @@
   }
 
   .main-content-wrap {
-    padding-right: 20%; // room for TOC: same as TOC width 
+    padding-right: 200px; // room for TOC: same as TOC width 
     // max-width: 1200px; // Ensures it stays extended to the right
     margin-right: 0; 
   }
