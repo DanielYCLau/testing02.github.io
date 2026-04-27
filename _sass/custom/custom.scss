@@ -1,5 +1,25 @@
 
 
+
+.main {
+    max-width: 1400px !important; /* Adjust this number to your liking */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 2. Force the content area to take up the remaining space */
+.main-content-wrap {
+    max-width: none !important;
+    width: 100% !important;
+}
+
+/* 3. Adjust the inner content container */
+.main-content {
+    max-width: 100% !important;
+    width: auto !important;
+}
+
+
 .main-content-wrap {
   text-align: justify;
   text-justify: inter-word;
@@ -7,7 +27,7 @@
 
 
 
-// reduce space next to sidebar
+/* // reduce space next to sidebar
 // https://www.reddit.com/r/Jekyll/comments/153wo1y/help_customizing_jekyll_just_the_docs_theme/
 .side-bar {
   @include mq(lg) {
@@ -15,7 +35,6 @@
   }
 }
 
-/*
 .main {
   @include mq(md) {
     position: relative;
