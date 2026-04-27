@@ -1,6 +1,11 @@
 
 $main-content-max-width: none;
 
+.main-content {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .main-content-wrap {
   margin-left: 0;
 }
