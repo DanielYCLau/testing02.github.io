@@ -1,22 +1,6 @@
 
 
 
-.main-content-wrap {
-  // Removes the limit that keeps the content centered
-  max-width: none; 
-  
-  // Resets the auto-centering margin
-  margin-right: 0; 
-  padding-right: 200px; // room for TOC 
-}
-
-.main-content {
-  // Ensures the inner container also expands
-  max-width: none; 
-  margin-right: 0;
-}
-
-
 
 // reduce space next to sidebar
 // https://www.reddit.com/r/Jekyll/comments/153wo1y/help_customizing_jekyll_just_the_docs_theme/
@@ -74,4 +58,14 @@
   .main-content-wrap {
     padding-right: 0px; // room for TOC 
   }
+}
+
+@media (min-width: 901px) {
+
+  .main-content-wrap {
+    padding-right: 200px; // room for TOC 
+    max-width: none; // Ensures it stays extended to the right
+    margin-right: 0; 
+  }
+
 }
