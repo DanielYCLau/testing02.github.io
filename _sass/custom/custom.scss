@@ -5,11 +5,7 @@
   text-justify: inter-word;
 }
 
-.main-content-wrap {
-  margin-left: 0;
-}
-
-// reduce space next to sidebar
+/* // reduce space next to sidebar
 // https://www.reddit.com/r/Jekyll/comments/153wo1y/help_customizing_jekyll_just_the_docs_theme/
 .side-bar {
   @include mq(lg) {
@@ -31,7 +27,7 @@
     );
   }
 }
-
+ */
 
 
 // ADD TOC on the right side
@@ -60,10 +56,10 @@
     display: none;
   }
   .main-content {
-    margin-right: 0;
+    margin-right: 0px;
   }
   .main-content-wrap {
-    padding-right: 0px; // room for TOC 
+    padding-right: 5px; // room scrollbar 
   }
 }
 
