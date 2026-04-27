@@ -1,8 +1,19 @@
 
+---
+---
+.main-content-wrap {
+  // Removes the limit that keeps the content centered
+  max-width: none; 
+  
+  // Resets the auto-centering margin
+  margin-right: 0; 
+  padding-right: 200px; // room for TOC 
+}
+
 .main-content {
-  margin-left: 0;
-  margin-right: auto;
-  // max-width: $content-width;
+  // Ensures the inner container also expands
+  max-width: none; 
+  margin-right: 0;
 }
 
 
