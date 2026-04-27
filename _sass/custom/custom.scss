@@ -1,19 +1,22 @@
 
 
 
-/* Increase the max-width of the main content container */
-.main-content-wrap, 
-.main-content,
-.page-header {
-    max-width: 1200px !important; /* Change to 'none' for full width */
+.main {
+    max-width: 1400px !important; /* Adjust this number to your liking */
     margin-left: auto;
     margin-right: auto;
 }
 
-/* Ensure the header/footer also span the new width */
-.site-footer, 
-.site-header {
-    max-width: 1200px !important;
+/* 2. Force the content area to take up the remaining space */
+.main-content-wrap {
+    max-width: none !important;
+    width: 100% !important;
+}
+
+/* 3. Adjust the inner content container */
+.main-content {
+    max-width: 100% !important;
+    width: auto !important;
 }
 
 
