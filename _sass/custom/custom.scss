@@ -5,13 +5,6 @@
   text-justify: inter-word;
 }
 
-.main-content-wrap {
-    max-width: 1200px;
-}
-
-.main-content {
-    max-width: 100%;
-}
 
 
 /* // reduce space next to sidebar
@@ -76,7 +69,7 @@
 
   .main-content-wrap {
     padding-right: 200px; // room for TOC 
-    max-width: none; // Ensures it stays extended to the right
+    max-width: 1200px; // Ensures it stays extended to the right
     margin-right: 0; 
   }
 
