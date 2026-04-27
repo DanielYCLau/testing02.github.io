@@ -1,4 +1,15 @@
 
+.main-content-wrap {
+  max-width: none;
+  padding-inline: 200px; // Keeps a small breathing room on the edges
+}
+
+.main-content {
+  max-width: none;
+}
+
+
+
 // reduce space next to sidebar
 // https://www.reddit.com/r/Jekyll/comments/153wo1y/help_customizing_jekyll_just_the_docs_theme/
 .side-bar {
