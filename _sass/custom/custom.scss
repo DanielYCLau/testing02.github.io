@@ -67,9 +67,13 @@
 
 @media (min-width: 901px) {
 
+  .main-content {
+    max-width: 1200px; // margin-right: 0px;
+  }
+
   .main-content-wrap {
     padding-right: 200px; // room for TOC 
-    max-width: 1200px; // Ensures it stays extended to the right
+    // max-width: 1200px; // Ensures it stays extended to the right
     margin-right: 0; 
   }
 
