@@ -34,10 +34,10 @@ Coming soon
 
 :)
 
-## Publications
+## Publications <!-- Subtitle with size 6; numbered item usual size 4 -->
 <!-- <div class="code-example" markdown="1"> -->
-1. <span class="fs-6">Influenza antibody breadth and effector functions are immune correlates from acquisition of pandemic infection of children</span><br>
-  <span class="fs-4">
+1. <span class="fs-5">Influenza antibody breadth and effector functions are immune correlates from acquisition of pandemic infection of children</span><br>
+  <span class="fs-3">
   Cross-reactive antibodies with Fc receptor (FcR) effector functions may mitigate pandemic virus impact in the absence of neutralizing antibodies. In this exploratory study, we use serum from a randomized placebo-controlled trial of seasonal trivalent influenza vaccination in children (NCT00792051) conducted at the onset of the 2009 H1N1 pandemic (pH1N1) and monitored for infection. We found that seasonal vaccination increases pH1N1 specific antibodies and FcR effector functions. Furthermore, prospective baseline antibody profiles after seasonal vaccination, prior to pH1N1 infection, show that unvaccinated uninfected children have elevated ADCC effector function, FcγR3a and FcγR2a binding antibodies to multiple pH1N1 proteins, past seasonal and avian (H5, H7 and H9) strains. Whereas, children that became pH1N1 infected after seasonal vaccination have antibodies focussed to seasonal strains without FcR functions, and greater aggregated HA-specific profiles for IgM and IgG3. Modeling to predict infection susceptibility, ranked baseline hemagglutination antibody inhibition as the highest contributor to lack of pH1N1 infection, in combination with features that include pH1-IgG1, H1-stem responses and FcR binding to seasonal vaccine and pH1 proteins. Thus, seasonal vaccination can have benefits against pandemic influenza viruses, and some children already have broadly reactive antibodies with Fc potential without vaccination and may be considered ‘elite influenza controllers’.
   </span><br>
   <span class="fs-3">[[Paper]](https://doi.org/10.1038/s41467-024-47590-0)</span>
