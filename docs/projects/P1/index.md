@@ -23,29 +23,23 @@ Table of Contents
 
 ---
 
-## Objectives
-XXXXX
-
-### Description
+## Overview
 The study was designed on a household basis, to enable inference on the indirect as well as direct benefits of influenza vaccination and transmission dynamics within households. Invitation letters were distributed to members of a local birth cohort and via local schools. Eligible households included at least 1 child aged 6–17 years who did not have any contraindications against injection of TIV. One eligible child from each household was randomized to receive either a single dose of TIV or saline placebo intramuscularly, regardless of whether they had previously received an influenza vaccine. Procedures to ensure allocation concealment and double blinding were conducted. Serum specimens were collected from study participants at baseline prior to vaccination (August 2009–February 2010) and 1 month after vaccination. Sera were thereafter collected annually each autumn for every participant, and each spring for at least 25% of participants. At the end of each year, participants were invited to continue participating in the study for another year. Vaccines and placebos were only administered to study participants once, at the beginning of the study. Receipt of influenza vaccine outside of the trial was recorded annually. All participants and their household contacts were instructed to record the presence of any systemic and respiratory symptoms in a symptom diary daily throughout the study. Telephone calls were made every 2 weeks on average to monitor for any acute upper respiratory tract infections (URTIs). Households were also reminded to report any acute URTIs to the study hotline as soon as possible after illness onset. Home visits were triggered by the presence of any 2 symptoms or signs of fever (temperature ≥37.8°C), chills, headache, sore throat, cough, presence of phlegm, coryza, or myalgia in any household member and repeated at 3-day intervals until acute URTIs resolved. During home visits, combined nasal and throat swabs (NTSs) were collected from all household members regardless of illness. Household contacts of study participants also provided regular serum specimens and NTSs during illness episodes, and symptom diaries throughout the follow-up period.
 
-### Data
-{: .d-inline-block }
-
-Pending
-{: .label .label-green }
-
-:)
-
-### Scripts
+## Data
 {: .d-inline-block }
 
 Coming soon
 {: .label .label-yellow }
 
+:)
+
 ## Publications
 <!-- <div class="code-example" markdown="1"> -->
-1. Jia JZ, Cohen CA, Gu H, McLean MR, Varadarajan R, Bhandari N, Peiris M, Leung GM, Poon LLM, Tsang T, Chung AW, Cowling BJ, Leung NHL, Valkenburg SA. Influenza antibody breadth and effector functions are immune correlates from acquisition of pandemic infection of children. Nat Commun. 2024 Apr 13;15(1):3210. doi: 10.1038/s41467-024-47590-0. Erratum in: Nat Commun. 2024 Sep 19;15(1):8227. doi: 10.1038/s41467-024-52572-3. PMID: 38615070; PMCID: PMC11016072.
+1. Influenza antibody breadth and effector functions are immune correlates from acquisition of pandemic infection of children
+  <span class="fs-1">text</span>
+  <span class="fs-1">[text][https://www.nature.com/articles/s41467-024-47590-0#change-history]</span>
+  Jia JZ, Cohen CA, Gu H, McLean MR, Varadarajan R, Bhandari N, Peiris M, Leung GM, Poon LLM, Tsang T, Chung AW, Cowling BJ, Leung NHL, Valkenburg SA. Influenza antibody breadth and effector functions are immune correlates from acquisition of pandemic infection of children. Nat Commun. 2024 Apr 13;15(1):3210. doi: 10.1038/s41467-024-47590-0. Erratum in: Nat Commun. 2024 Sep 19;15(1):8227. doi: 10.1038/s41467-024-52572-3. PMID: 38615070; PMCID: PMC11016072.
 1. Xiong W, Tsang TK, Perera RAPM, Leung NHL, Fang VJ, Barr IG, Malik Peiris JS, Cowling BJ. Biphasic Waning of Hemagglutination Inhibition Antibody Titers After Influenza Vaccination in Children. J Infect Dis. 2022 Sep 21;226(6):1022-1026. doi: 10.1093/infdis/jiac117. PMID: 35380689.
 1. Tsang TK, Lam KT, Liu Y, Fang VJ, Mu X, Leung NHL, Peiris JSM, Leung GM, Cowling BJ, Tu W. Investigation of CD4 and CD8 T cell-mediated protection against influenza A virus in a cohort study. BMC Med. 2022 Jul 21;20(1):230. doi: 10.1186/s12916-022-02429-7. PMID: 35858844; PMCID: PMC9301821.
 1. Lau YC, Perera RAPM, Fang VJ, Luk LH, Chu DKW, Wu P, Barr IG, Peiris JSM, Cowling BJ. Variation by lineage in serum antibody responses to influenza B virus infections. PLoS One. 2020 Nov 9;15(11):e0241693. doi: 10.1371/journal.pone.0241693. PMID: 33166348; PMCID: PMC7652285.
