@@ -67,7 +67,7 @@
   position: fixed;
   top: 3.75rem;
   right: 0px;
-  width: 200px;
+  width: 80%; // 200px;
   max-height: calc(100vh - 120px);
   overflow-y: auto;
   background: #ffffff;
@@ -100,7 +100,7 @@
   }
 
   .main-content-wrap {
-    padding-right: 200px; // room for TOC: same as TOC width 
+    padding-right: 79%; // room for TOC: same as or < TOC width 
     // max-width: 1200px; // Ensures it stays extended to the right
     margin-right: 0; 
   }
