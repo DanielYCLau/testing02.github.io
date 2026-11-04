@@ -17,4 +17,4 @@ XXXXX
 
 
 
-[P1]: {% link docs/projects/HCW/Lancet_Microbe_2021/index.md}
+[P1]: {% link docs/Lancet_Microbe_2021/index.md}
