@@ -1,8 +1,10 @@
 ---
 title: Healthcare Worker Study
 parent: Projects
-nav_order: 3 # order in ToC
+nav_order: 2 # order in ToC
 ---
+
+# Healthcare Worker Study
 
 ## Description
 XXXXX
