@@ -1,7 +1,7 @@
 ---
 title: Project 2
 parent: Projects
-nav_order: 2 # order in ToC
+nav_order: 3 # order in ToC
 ---
 
 
