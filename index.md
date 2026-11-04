@@ -30,8 +30,7 @@ Welcome to HKUSPH infectious disease team
 | Projects | Year start | Year end | Age range | Description |
 |:---|:---:|:---:|:---:|:---|
 | [Pediatric Vaccine Study][P1] | 2009 | 2015 | children 5-17 years and their household members | Cohort study of infections and immunity in households with children, and of the direct and indirect benefits of vaccinating one child per household |
-| [Project 2][P2] | 2021 | 2021 | 60+ | Pending |
-| Project 3 | 2022 | 2022 | 60+ | Pending |
+| [Healthcare Worker Study][P2] | 2020 | 2026 | Adults 18+ years who have been working as a full time health care worker for at least 6 months in Hong Kong | Cohort study of infections of COVID-19 among health care workers |
 
 ---
 
@@ -42,7 +41,7 @@ Welcome to HKUSPH infectious disease team
 
 
 [HKUSPH]: https://sph.hku.hk/
-[P1]: {% link docs/projects/P1/index.md %}
-[P2]: {% link docs/projects/P2/index.md %}
+[P1]: {% link docs/projects/kiddivax/index.md %}
+[P2]: {% link docs/projects/HCW/index.md %}
 
 
