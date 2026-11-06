@@ -95,35 +95,35 @@ Results described in the manuscript are reproduced in the following scripts whic
 ---
 
 ## Humoral antibody response after receipt of TIV
-Among 119 children recruited in the pilot study, 64 children rejoined the main study and allocation of TIV/placebo in year 2 was independent of allocation in year 1. Ng et al. (2012, Pediatr Infect Dis J) studied those 64 subjects and suggested that humoral antibody response to TIV may be lower in children receiving repeated vaccination, but receipt of TIV induced seroprotection in most subjects.
+Among 119 children recruited in the pilot study, 64 children rejoined the main study and allocation of TIV/placebo in year 2 was independent of allocation in year 1. [Ng et al. (2012, Pediatr Infect Dis J)][ng2012] studied those 64 subjects and suggested that humoral antibody response to TIV may be lower in children receiving repeated vaccination, but receipt of TIV induced seroprotection in most subjects.
 
 Results described in the manuscript are reproduced in the following scripts which can be run in R:
 
-* scripts to reformat the raw data (used in some of the other scripts here).
-* Table 1; Table 2; Table 3.
-* Figure 1.
+* [scripts][mhs] to reformat the raw data (used in some of the other scripts here).
+* [Table 1][mhT1]; [Table 2][mhT2]; [Table 3][mhT3].
+* [Figure 1][mhF1].
 
 ---
 
 ## The effect of age and recent vaccination history on the efficacy of 2009-10 seasonal TIV
-There is some evidence that annual vaccination of trivalent inactivated influenza vaccine (TIV) may lead to reduced vaccine immunogenicity but evidence is lacking on whether vaccine efficacy is affected by prior vaccination history. Ng et al. (2013, PLoS ONE) investigated on the 796 children recruited in the main study, whose influenza vaccination history in the two preceding years was recorded. Ng concluded that prior vaccination was associated with lower antibody responses to TIV against seasonal influenza A vaccine viruses, but higher responses to the same lineage of influenza B virus.
+There is some evidence that annual vaccination of trivalent inactivated influenza vaccine (TIV) may lead to reduced vaccine immunogenicity but evidence is lacking on whether vaccine efficacy is affected by prior vaccination history. [Ng et al. (2013, PLoS ONE)][ng2013plos] investigated on the 796 children recruited in the main study, whose influenza vaccination history in the two preceding years was recorded. Ng concluded that prior vaccination was associated with lower antibody responses to TIV against seasonal influenza A vaccine viruses, but higher responses to the same lineage of influenza B virus.
 
 Results described in the manuscript are reproduced in the following scripts which can be run in R:
 
-* scripts to reformat the raw data (used in some of the other scripts here).
-* Table 2; Table 3; Table S1; Table S2; Table S3; Table S4.
-* Figure 1; Figure S2.
+* [scripts][mas] to reformat the raw data (used in some of the other scripts here).
+* [Table 2][maT2]; [Table 3][maT3]; [Table S1][maTS1]; [Table S2][maTS2]; [Table S3][maTS3]; [Table S4][maTS4].
+* [Figure 1][maF1]; [Figure S2][maFS2].
 
 ---
 
 ## The association between antibody titers and protection against influenza
-Antibody titers measured by hemagglutination inhibition (HAI) correlate with protection against influenza virus infection and are used to specify criteria for vaccine licensure. Ng et al. (2013, JID) investigated on the 773 children recruited in the main study with HAI titers available, and found that HAI titers of 1:40 against A(H1N1)pdm09 and B(Victoria lineage) were associated with 48% and 55% protection against PCR-confirmed infection with each strain.
+Antibody titers measured by hemagglutination inhibition (HAI) correlate with protection against influenza virus infection and are used to specify criteria for vaccine licensure. [Ng et al. (2013, JID)][ng2013jid] investigated on the 773 children recruited in the main study with HAI titers available, and found that HAI titers of 1:40 against A(H1N1)pdm09 and B(Victoria lineage) were associated with 48% and 55% protection against PCR-confirmed infection with each strain.
 
 Results described in the manuscript are reproduced in the following scripts which can be run in R:
 
-* source 1; source 2; source 3; source 4; source 5; source 6 (used in some of the other scripts here).
-* Figure 1; Figure 2; Appendix Figure 1.
-* Appendix Table 1; Appendix Table 2.
+* [source 1][mps1]; [source 2][mps2]; [source 3][mps3]; [source 4][mps4]; [source 5][mps5]; [source 6][mps6] (used in some of the other scripts here).
+* [Figure 1][mpF1]; [Figure 2][mpF2]; [Appendix Figure 1][mpFS1].
+* [Appendix Table 1][mpTS1]; [Appendix Table 2][mpTS2].
 
 ---
 
@@ -132,10 +132,10 @@ We have a series of further analyses underway using the data from our study. Mor
 
 
 ## Authors and investigators
-The principal investigator of this study is Ben Cowling. The data were uploaded by Ben Cowling, and the scripts were written by Ben Cowling, Vicky Fang, Brendan Klick, and Sophia Ng.
+The principal investigator of this study is [Ben Cowling][cowlingHKUSPH]. The data were uploaded by [Ben Cowling][cowlingHKUSPH], and the scripts were written by [Ben Cowling][cowlingHKUSPH], Vicky Fang, Brendan Klick, and Sophia Ng.
 
 ## A comment on reproducible research
-We fully support the increasing calls from the academic community for epidemiologic analyses to be reproducible, and raw data from randomized controlled trials to be published, as a part of the wider scientific endeavour to replicate results. Another example of this recommendation is in the Good Practice Guide for Quantitative Veterinary Epidemiology. Here we have published the raw anonymised data from our HK vaccination pilot study, and will later release the data from our main study. We have also published scripts which allow the analyses in our published papers to be reproduced.
+We fully support the [increasing calls][ref1] from the academic community for [epidemiologic analyses to be reproducible][ref2], and [raw data from randomized controlled trials to be published][ref3], as a part of the wider scientific endeavour to replicate results. Another example of this recommendation is in the Good Practice Guide for Quantitative Veterinary Epidemiology. Here we have published the raw anonymised data from our HK vaccination pilot study, and will later release the data from our main study. We have also published scripts which allow the analyses in our published papers to be reproduced.
 
 Thousands of local people have given their time, and their families', as part of their participation in our studies, all in the expectation that our research studies will add to medical and scientific knowledge. Participants should also expect that we will make the best possible use of the information that we have collected about them. It would be difficult to argue that facilitating best use of the data by the research community need not involve releasing raw data.
 
@@ -149,11 +149,25 @@ Publication of anonymised raw data has been approved by our local IRB and fundin
 ---
 
 ## Publications 
-1. Xiong W, Tsang TK, Perera RAPM, Leung NHL, Fang VJ, Barr IG, Malik Peiris JS, Cowling BJ. Biphasic Waning of Hemagglutination Inhibition Antibody Titers After Influenza Vaccination in Children. J Infect Dis. 2022 Sep 21;226(6):1022-1026. doi: 10.1093/infdis/jiac117. PMID: 35380689.
-1. Tsang TK, Lam KT, Liu Y, Fang VJ, Mu X, Leung NHL, Peiris JSM, Leung GM, Cowling BJ, Tu W. Investigation of CD4 and CD8 T cell-mediated protection against influenza A virus in a cohort study. BMC Med. 2022 Jul 21;20(1):230. doi: 10.1186/s12916-022-02429-7. PMID: 35858844; PMCID: PMC9301821.
-1. Lau YC, Perera RAPM, Fang VJ, Luk LH, Chu DKW, Wu P, Barr IG, Peiris JSM, Cowling BJ. Variation by lineage in serum antibody responses to influenza B virus infections. PLoS One. 2020 Nov 9;15(11):e0241693. doi: 10.1371/journal.pone.0241693. PMID: 33166348; PMCID: PMC7652285.
-1. Cowling BJ, Perera RA, Fang VJ, Chan KH, Wai W, So HC, Chu DK, Wong JY, Shiu EY, Ng S, Ip DK, Peiris JS, Leung GM. Incidence of influenza virus infections in children in Hong Kong in a 3-year randomized placebo-controlled vaccine study, 2009-2012. Clin Infect Dis. 2014 Aug 15;59(4):517-24. doi: 10.1093/cid/ciu356. Epub 2014 May 13. PMID: 24825868.
-1. Cowling BJ, Ng S, Ma ES, Fang VJ, So HC, Wai W, Cheng CK, Wong JY, Chan KH, Ip DK, Chiu SS, Peiris JS, Leung GM. Protective efficacy against pandemic influenza of seasonal influenza vaccination in children in Hong Kong: a randomized controlled trial. Clin Infect Dis. 2012 Sep;55(5):695-702. doi: 10.1093/cid/cis518. Epub 2012 Jun 5. PMID: 22670050.
+1. Cowling BJ, Ng S, Ma ESK, Cheng CKY, Wai W, Fang VJ, Chan KH, Ip DKM, Chiu SS, Peiris JSM, and Leung GM. Protective efficacy of seasonal influenza vaccination against seasonal and pandemic influenza virus infection during 2009 in Hong Kong. Clinical Infectious Diseases, 2010; 51(12):1370-9. [[link]][cowling2010]
+1. Klick B, Nishiura H, Ng S, Fang VJ, Leung GM, Peiris JSM, and Cowling BJ. Transmissibility of seasonal and pandemic influenza in a cohort of households in Hong Kong in 2009. Epidemiology, 2011; 22(6):793-6. [[link]][klick2011]
+1. Cowling BJ, Fang VJ, Nishiura H, Chan KH, Ng S, Ip DKM, Chiu SS, Leung GM and Peiris JSM. Increased risk of noninfluenza respiratory virus infections associated with receipt of inactivated influenza vaccine. Clinical Infectious Diseases, 2012; 54(12):1778-83. [[link]][cowling201203]
+1. Cowling BJ, Ng S, Ma ES, Fang VJ, So HC, Wai W, Cheng KY, Wong JY, Chan KH, Ip DKM, Chiu SS, Peiris JSM, and Leung GM. Protective Efficacy Against Pandemic Influenza of Seasonal Influenza Vaccination in Children in Hong Kong: A Randomized Controlled Trial. Clinical Infectious Diseases, 2012; 55(5):695-702. [[link]][cowling201206]
+1. Ng S, Fang VJ, Ip DKM, Chiu SS, Leung GM, Peiris JSM, and Cowling BJ. Humoral Antibody Response after Receipt of Inactivated Seasonal Influenza Vaccinations One Year Apart in Children. The Pediatric Infectious Disease Journal, 2012; 31(9):964-9. [[link]][ng2012]
+Ng S, Ip DKM, Fang VJ, Chan KH, Chiu SS, Leung GM, Peiris JSM, and Cowling BJ. The effect of age and recent influenza vaccination history on the immunogenicity and efficacy of 2009-10 seasonal trivalent inactivated influenza vaccination in children. PLoS ONE, 2013; 8(3):e59077. [[link]][ng2013plos]
+1. Ng S, Fang VJ, Ip DKM, Chan KH, Leung GM, Peiris JSM, and Cowling BJ. Estimation of the association between antibody titers and protection against confirmed influenza virus infection in children. The Journal of Infectious Diseases, 2013; 208(8):1320-4. [[link]][ng2013jid]
+
+
+
+---
+
+## Acknowledgements
+The pilot study (2008-09) was funded by the Area of Excellence Scheme of the Hong Kong University Grants Committee (grant no. AoE/M-12/06) and the Research Fund for the Control of Infectious Disease, Food and Health Bureau, Government of the Hong Kong SAR (grant no. PHE-02).
+
+The main study (2009-10) was funded by the Research Fund for the Control of Infectious Disease, Food and Health Bureau, Government of the Hong Kong SAR (grant no. CHP-CE-03).
+
+Further analyses are supported by the Area of Excellence Scheme of the Hong Kong University Grants Committee (grant no. AoE/M-12/06), and the Harvard Center for Communicable Disease Dynamcs from the US National Institutes of Health Models of Infectious Disease Agent Study program (grant no. 1 U54 GM088558).
+
 
 
 
@@ -162,6 +176,12 @@ Publication of anonymised raw data has been approved by our local IRB and fundin
 [D2]: {% link docs/projects/kiddivax/data/KiddivaxMain.zip %}
 
 [L1]: http://www.opendatacommons.org/odc-public-domain-dedication-and-licence/
+
+[cowlingHKUSPH]: https://sph.hku.hk/en/Biography/Cowling-Benjamin-John
+
+[ref1]: https://doi.org/10.1097/EDE.0b013e318196784a
+[ref2]: https://doi.org/10.1093/aje/kwj093
+[ref3]: https://doi.org/10.1186/1745-6215-10-17
 
 
 
@@ -189,7 +209,7 @@ Publication of anonymised raw data has been approved by our local IRB and fundin
 
 
 <!-- Pilot Transmissibility -->
-[klick2011]: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3206962/
+[klick2011]: https://doi.org/10.1097/EDE.0b013e3182302e8e
 
 [ptf]: {% link docs/projects/kiddivax/script/KiddivaxPilot_Transmission/MCMC_function.r %}
 
@@ -235,6 +255,49 @@ Publication of anonymised raw data has been approved by our local IRB and fundin
 
 
 
+<!-- Humoral antibody -->
+[ng2012]:https://doi.org/10.1097/INF.0b013e318263280e
+
+[mhs]: {% link docs/projects/kiddivax/script/KiddivaxMain_PIDJ_antibody/dataframe.r %}
+
+[mhT1]: {% link docs/projects/kiddivax/script/KiddivaxMain_PIDJ_antibody/Table_1.r %}
+[mhT2]: {% link docs/projects/kiddivax/script/KiddivaxMain_PIDJ_antibody/Table_2.r %}
+[mhT3]: {% link docs/projects/kiddivax/script/KiddivaxMain_PIDJ_antibody/Table_3.r %}
+
+[mhF1]: {% link docs/projects/kiddivax/script/KiddivaxMain_PIDJ_antibody/Figure_1.r %}
 
 
 
+<!-- Effect of age and vac history -->
+[ng2013plos]: https://doi.org/10.1371/journal.pone.0059077
+
+[mas]: {% link docs/projects/kiddivax/script/KiddivaxMain_PLoSONE/dataframe.r %}
+
+[maT2]: {% link docs/projects/kiddivax/script/KiddivaxMain_PLoSONE/Table_2.r %}
+[maT3]: {% link docs/projects/kiddivax/script/KiddivaxMain_PLoSONE/Table_3.r %}
+[maTS1]: {% link docs/projects/kiddivax/script/KiddivaxMain_PLoSONE/Table_S1.r %}
+[maTS2]: {% link docs/projects/kiddivax/script/KiddivaxMain_PLoSONE/Table_S2.r %}
+[maTS3]: {% link docs/projects/kiddivax/script/KiddivaxMain_PLoSONE/Table_S3.r %}
+[maTS4]: {% link docs/projects/kiddivax/script/KiddivaxMain_PLoSONE/Table_S4.r %}
+
+[maF1]: {% link docs/projects/kiddivax/script/KiddivaxMain_PLoSONE/Figure_1.r %}
+[maFS2]: {% link docs/projects/kiddivax/script/KiddivaxMain_PLoSONE/Figure_S2.r %}
+
+
+
+<!-- association between antibody titers and protection against influenza -->
+[ng2013jid]: https://doi.org/10.1093/infdis/jit372
+
+[mps1]: {% link docs/projects/kiddivax/script/KiddivaxMain_JID_titerprot/source_1.r %}
+[mps2]: {% link docs/projects/kiddivax/script/KiddivaxMain_JID_titerprot/source_2.r %}
+[mps3]: {% link docs/projects/kiddivax/script/KiddivaxMain_JID_titerprot/source_3.r %}
+[mps4]: {% link docs/projects/kiddivax/script/KiddivaxMain_JID_titerprot/source_4.r %}
+[mps5]: {% link docs/projects/kiddivax/script/KiddivaxMain_JID_titerprot/source_5.r %}
+[mps6]: {% link docs/projects/kiddivax/script/KiddivaxMain_JID_titerprot/source_6.r %}
+
+[mpF1]: {% link docs/projects/kiddivax/script/KiddivaxMain_JID_titerprot/Figure_1.r %}
+[mpF2]: {% link docs/projects/kiddivax/script/KiddivaxMain_JID_titerprot/Figure_2.r %}
+[mpFS1]: {% link docs/projects/kiddivax/script/KiddivaxMain_JID_titerprot/Appendix_Figure_1.r %}
+
+[mpTS1]: {% link docs/projects/kiddivax/script/KiddivaxMain_JID_titerprot/Appendix_Table_1.r %}
+[mpTS2]: {% link docs/projects/kiddivax/script/KiddivaxMain_JID_titerprot/Appendix_Table_2.r %}
