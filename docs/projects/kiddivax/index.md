@@ -56,9 +56,9 @@ The primary findings from the 2008-09 pilot study were published by [Cowling et 
 
 Results presented in that manuscript are reproduced in the following scripts which can be run in the free (and increasingly popular) statistical software package R:
 
-scripts to reformat the raw data (used in some of the other scripts here) and scripts to reformat the raw data and adjust for cross reactivity.
-* [Table 1][T1]; [Table 2][T2]; [Table 3][T3]; [Table 4][T4]; [Table 5][T5]; [Table 6][T6]; [Table 7][T7]; [Table 8][T8].
-* [Figure 1][F1]; [Figure S1][FS1]; [Figure S2][FS2]; [Figure S3][FS3]; [Figure S4][FS4].
+* [scripts][ps1] to reformat the raw data (used in some of the other scripts here) and [scripts][ps2] to reformat the raw data and adjust for cross reactivity.
+* [Table 1][pT1]; [Table 2][pT2]; [Table 3][pT3]; [Table 4][pT4]; [Table 5][pT5]; [Table 6][pT6]; [Table 7][pT7]; [Table 8][pT8].
+* [Figure 1][pF1]; [Figure S1][pFS1]; [Figure S2][pFS2]; [Figure S3][pFS3]; [Figure S4][pFS4].
 
 ---
 
@@ -67,30 +67,30 @@ We analyzed the final outbreak size distributions of pH1N1, sH1N1, sH3N2 infecti
 
 Results described in Klick et al. (2011) are reproduced in the following scripts which can be run in R:
 
-functions of the MCMC procedure (used in some of the other scripts here).
-* Table 1; Table 2; eTable 2; eTable 3; eTable 4; eTable 5.
-* Figure 1-3.
+* [functions][ptf] of the MCMC procedure (used in some of the other scripts here).
+* [Table 1][ptT1]; [Table 2][ptT2]; [eTable 2][ptTS2]; [eTable 3][ptTS3]; [eTable 4][ptTS4]; [eTable 5][ptTS5].
+* [Figure 1-3][ptF13].
 
 ---
 
 ## Increased risk of noninfluenza respiratory virus infections
-We randomized 115 children to TIV or placebo group. TIV recipients had an increased risk of noninfluenza respiratory virus infections over the following nine months. While being protected against influenza, TIV recipients may lack of temporary non-specific immunity that protected against other respiratory viruses. The results were published by Cowling et al. (2012, Clin Infect Dis).
+We randomized 115 children to TIV or placebo group. TIV recipients had an increased risk of noninfluenza respiratory virus infections over the following nine months. While being protected against influenza, TIV recipients may lack of temporary non-specific immunity that protected against other respiratory viruses. The results were published by [Cowling et al. (2012, Clin Infect Dis)][cowling201203].
 
 Results described in the manuscript are reproduced in the following scripts which can be run in R:
 
-* Table 1; Table 2; Table 3; Appendix Table 1.
-* Figure 1; Appendix Figure 1.
+* [Table 1][pcT1]; [Table 2][pcT2]; [Table 3][pcT3]; [Appendix Table 1][pcTS1].
+* [Figure 1][pcF1]; [Appendix Figure 1][pcFS1].
 
 ---
 
 ## Main findings
-The primary findings from the 2009-10 main study were published by [Cowling et al. (2012, Clin Infect Dis)][cowling2012]. In the main study, we recruited 796 children as well as their household members. Pandemic A(H1N1) circulated at the time of vaccination and for a short time afterward with no substantial seasonal influenza activity during that period. We found that seasonal TIV prevented pandemic influenza A(H1N1) and influenza B infections in children.
+The primary findings from the 2009-10 main study were published by [Cowling et al. (2012, Clin Infect Dis)][cowling201206]. In the main study, we recruited 796 children as well as their household members. Pandemic A(H1N1) circulated at the time of vaccination and for a short time afterward with no substantial seasonal influenza activity during that period. We found that seasonal TIV prevented pandemic influenza A(H1N1) and influenza B infections in children.
 
 Results described in the manuscript are reproduced in the following scripts which can be run in R:
 
-* scripts to reformat the raw data (used in some of the other scripts here).
-* Table 1; Table 2; Table 3; Table S1; Table S2; Table S3; Table S4.
-* Figure 2.
+* [scripts][ms] to reformat the raw data (used in some of the other scripts here).
+* [Table 1][mT1]; [Table 2][mT2]; [Table 3][mT3]; [Table S1][mTS1]; [Table S2][mTS2]; [Table S3][mTS3]; [Table S4][mTS4].
+* [Figure 2][mF2].
 
 ---
 
@@ -163,21 +163,78 @@ Publication of anonymised raw data has been approved by our local IRB and fundin
 
 [L1]: http://www.opendatacommons.org/odc-public-domain-dedication-and-licence/
 
+
+
+<!-- Pilot -->
 [cowling2010]: http://dx.doi.org/10.1086/657311
-[cowling2012]: https://doi.org/10.1093/cid/cis307
+
+[ps1]: {% link docs/projects/kiddivax/script/KiddivaxPilot/dataframe.r %}
+[ps2]: {% link docs/projects/kiddivax/script/KiddivaxPilot/dataframe_cross.r %}
+
+[pT1]: {% link docs/projects/kiddivax/script/KiddivaxPilot/Table_1.r %}
+[pT2]: {% link docs/projects/kiddivax/script/KiddivaxPilot/Table_2.r %}
+[pT3]: {% link docs/projects/kiddivax/script/KiddivaxPilot/Table_3.r %}
+[pT4]: {% link docs/projects/kiddivax/script/KiddivaxPilot/Table_4.r %}
+[pT5]: {% link docs/projects/kiddivax/script/KiddivaxPilot/Table_5.r %}
+[pT6]: {% link docs/projects/kiddivax/script/KiddivaxPilot/Table_6.r %}
+[pT7]: {% link docs/projects/kiddivax/script/KiddivaxPilot/Table_7.r %}
+[pT8]: {% link docs/projects/kiddivax/script/KiddivaxPilot/Table_8.r %}
+
+[pF1]:  {% link docs/projects/kiddivax/script/KiddivaxPilot/Figure_1.r %}
+[pFS1]: {% link docs/projects/kiddivax/script/KiddivaxPilot/Figure_S1.r %}
+[pFS2]: {% link docs/projects/kiddivax/script/KiddivaxPilot/Figure_S2.r %}
+[pFS3]: {% link docs/projects/kiddivax/script/KiddivaxPilot/Figure_S3.r %}
+[pFS4]: {% link docs/projects/kiddivax/script/KiddivaxPilot/Figure_S4.r %}
+
+
+
+<!-- Pilot Transmissibility -->
 [klick2011]: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3206962/
 
-[T1]: {% link docs/projects/kiddivax/script/Table_1.r %}
-[T2]: {% link docs/projects/kiddivax/script/Table_2.r %}
-[T3]: {% link docs/projects/kiddivax/script/Table_3.r %}
-[T4]: {% link docs/projects/kiddivax/script/Table_4.r %}
-[T5]: {% link docs/projects/kiddivax/script/Table_5.r %}
-[T6]: {% link docs/projects/kiddivax/script/Table_6.r %}
-[T7]: {% link docs/projects/kiddivax/script/Table_7.r %}
-[T8]: {% link docs/projects/kiddivax/script/Table_8.r %}
+[ptf]: {% link docs/projects/kiddivax/script/KiddivaxPilot_Transmission/MCMC_function.r %}
 
-[F1]: {% link docs/projects/kiddivax/script/Figure_1.r %}
-[FS1]: {% link docs/projects/kiddivax/script/Figure_S1.r %}
-[FS2]: {% link docs/projects/kiddivax/script/Figure_S2.r %}
-[FS3]: {% link docs/projects/kiddivax/script/Figure_S3.r %}
-[FS4]: {% link docs/projects/kiddivax/script/Figure_S4.r %}
+[ptT1]:  {% link docs/projects/kiddivax/script/KiddivaxPilot_Transmission/Table_1.r %}
+[ptT2]:  {% link docs/projects/kiddivax/script/KiddivaxPilot_Transmission/Table_2.r %}
+[ptTS2]: {% link docs/projects/kiddivax/script/KiddivaxPilot_Transmission/eTable_2.r %}
+[ptTS3]: {% link docs/projects/kiddivax/script/KiddivaxPilot_Transmission/eTable_3.r %}
+[ptTS4]: {% link docs/projects/kiddivax/script/KiddivaxPilot_Transmission/eTable_4.r %}
+[ptTS5]: {% link docs/projects/kiddivax/script/KiddivaxPilot_Transmission/eTable_5.r %}
+
+[ptF13]: {% link docs/projects/kiddivax/script/KiddivaxPilot_Transmission/Figure_1to3.r %}
+
+
+
+<!-- Pilot respiratory -->
+[cowling201203]: https://doi.org/10.1093/cid/cis307
+
+[pcT1]:  {% link docs/projects/kiddivax/script/KiddivaxPilot_CID_respiratory/Table_1.r %}
+[pcT2]:  {% link docs/projects/kiddivax/script/KiddivaxPilot_CID_respiratory/Table_2.r %}
+[pcT3]:  {% link docs/projects/kiddivax/script/KiddivaxPilot_CID_respiratory/Table_3.r %}
+[pcTS1]: {% link docs/projects/kiddivax/script/KiddivaxPilot_CID_respiratory/Appendix_Table_1.r %}
+
+[pcF1]:  {% link docs/projects/kiddivax/script/KiddivaxPilot_CID_respiratory/Figure_1.r %}
+[pcFS1]: {% link docs/projects/kiddivax/script/KiddivaxPilot_CID_respiratory/Appendix_Figure_1.r %}
+
+
+
+
+<!-- Main -->
+[cowling201206]: https://doi.org/10.1093/cid/cis518
+
+[ms]: {% link docs/projects/kiddivax/script/KiddivaxMain/dataframe.r %}
+
+[mT1]:  {% link docs/projects/kiddivax/script/KiddivaxMain/Table_1.r %}
+[mT2]:  {% link docs/projects/kiddivax/script/KiddivaxMain/Table_2.r %}
+[mT3]:  {% link docs/projects/kiddivax/script/KiddivaxMain/Table_3.r %}
+[mTS1]: {% link docs/projects/kiddivax/script/KiddivaxMain/Table_S1.r %}
+[mTS2]: {% link docs/projects/kiddivax/script/KiddivaxMain/Table_S2.r %}
+[mTS3]: {% link docs/projects/kiddivax/script/KiddivaxMain/Table_S3.r %}
+[mTS4]: {% link docs/projects/kiddivax/script/KiddivaxMain/Table_S4.r %}
+
+[mF2]: {% link docs/projects/kiddivax/script/KiddivaxMain/Figure_2.r %}
+
+
+
+
+
+
