@@ -1,0 +1,9 @@
+functions.r
+- to calculate the non-parametric and parametric estimates of the serial interval
+
+Appendix_Table_1.r
+- to produce the dataset "serial_appendix_table_1.csv" 
+
+WinBUGs.zip
+- for Appendix Table 3 and Appendix Figure 2
+- with WinBUGS scripts, which require the R package R2WinBUGS and a bit of effort setting up WinBUGS to run in R - instructions available in http://www.stat.columbia.edu/~gelman/bugsR

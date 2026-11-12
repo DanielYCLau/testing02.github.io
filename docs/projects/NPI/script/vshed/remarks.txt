@@ -1,0 +1,6 @@
+JID_dataframe.r
+- to reformat the raw data
+
+WinBUGS.zip
+- for Figure 3
+- with WinBUGS scripts - these require the R package R2WinBUGS and a bit of effort setting up WinBUGS to run in R - instructions available in http://www.stat.columbia.edu/~gelman/bugsR/

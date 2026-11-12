@@ -1,0 +1,70 @@
+$sidebar-width: 21rem; // sidebar width
+$content-width: 65rem; // main content width
+$nav-width:     20rem; // navigation column
+
+
+
+
+// sidebar and main content
+.site-nav {
+  @include mq(lg) {
+    width: $nav-width !important;
+  };
+  // border-top: 1px solid $border-color;
+}
+
+.side-bar {
+  @include mq(lg) {
+    left: max(0px, calc((100% - #{$sidebar-width + $content-width}) / 2));
+    width: $sidebar-width;
+    min-width: $sidebar-width;
+  }
+}
+
+.side-bar + .main {
+  @include mq(lg) {
+    max-width: $content-width;
+    margin-left: max(
+      #{$sidebar-width},
+      calc((100% - #{$sidebar-width + $content-width}) / 2 + #{$sidebar-width})
+    );
+  }
+}
+
+
+
+
+// header and title
+.site-header {
+  width: 100%;
+  // padding-left: -0rem; // title left shift
+  // border-bottom: 1px solid $border-color; // adjust border color and width as needed
+}
+
+.site-title {
+  white-space: nowrap;
+}
+
+
+
+
+
+// justify text in main content
+.main-content-wrap {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+
+
+
+// adjust search bar
+
+.search-input-wrap {
+  width: $content-width;
+}
+
+.search-results {
+  width: calc(#{$content-width} * 0.9);
+}

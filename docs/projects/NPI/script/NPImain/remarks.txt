@@ -1,0 +1,2 @@
+Analyzed_hh.r
+- to mark the analyzed households
